@@ -39,6 +39,10 @@ body{
     margin: 45px 0px 0px 25px;
 }
 
+.button_link{
+    text-decoration: none;
+    color: black;
+}
 .button{
     background-color: #FFFFFF;
     height:58px;
@@ -74,4 +78,8 @@ body{
     display: flex;
     justify-content: center;
     margin: 19px 0px 0px 0px;
+}
+.login-span-text-decor{
+    /* text-decoration: none; */
+    margin: 0px 0px 0px 4px;
 }

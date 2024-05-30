@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #06193A;
+}
+
+.piggybank{
+    display: flex;
+    justify-content: center;
+}
+.piggybank_image_decor{
+    display: flex;
+    height: 158px;
+    width: 196px;
+    margin: 88px 0px 0px 0px;
+}
+
+
+.registration_text{
+    display: flex;
+    justify-content: center;
+}
+.reg_text_decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+    padding: 10px;
+    margin: 31px 0px 54px 0px;   
+}
+
+.details_sections{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+.details_decor{
+    width: 304px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+.register_button{
+    display: flex;
+    justify-content: center;
+}
+.register_button_decor{
+    background-color: #8350EA;
+    width: 164px;
+    height: 35px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin: 40px 0px 0px 0px;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal; 
+}

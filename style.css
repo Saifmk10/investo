@@ -16,18 +16,21 @@ body{
 .image{
     /* border: 2px solid yellow; */
     display: flex;
+    justify-content: center;
     
 }
 .welcoming-image{
     height: 243px;
     width: 213;
-    padding: 10px;
-    margin: 102px 0px 0px 60px;
+    /* padding: 10px; */
+    /* margin: 102px 0px 0px 60px; */
+    margin: 102px 0px 0px 0px;
 }
 
-/* .welcoming-text{
-    border: 2px solid yellow;
-} */
+.welcoming-text{
+    display: flex;
+    justify-content: center;
+} /*in case of any layout issues comment this class*/
 .welcoming-text-decor{
     color: white;
     font-family: "Inter", sans-serif;
@@ -36,9 +39,15 @@ body{
     font-style: normal;
     font-size: 4vh;
     word-spacing: 3px;
-    margin: 45px 0px 0px 25px;
+    /* margin: 45px 0px 0px 25px; */
+    margin: 45px 0px 0px 0px;
 }
 
+
+.button-parent-div{
+    display: flex;
+    justify-content: center;
+}
 .button_link{
     text-decoration: none;
     color: black;
@@ -48,7 +57,8 @@ body{
     height:58px;
     width: 276px;
     border-radius: 30px;
-    margin: 77px 0px 0px 42px;
+    /* margin: 77px 0px 0px 42px; */
+    margin: 77px 0px 0px 0px;
     
     display: flex;
 }

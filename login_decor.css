@@ -100,3 +100,17 @@ body{
     font-style: normal;
     font-size: 2vh;
 }
+
+.reset-pin{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+}
+.reset-pin-decor{
+    /* text-decoration: ; */
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}

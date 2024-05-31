@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #06193A;
+}
+
+.login-image-parent{
+    display: flex;
+    justify-content: center;
+}
+.login-image-decor{
+    height: 274px;
+    width: 271px;
+    margin: 14px 0px 0px 0px;
+}
+
+
+.login-text-parent{
+    display: flex;
+    justify-content: center;
+}
+.login-text-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4vh;
+    letter-spacing: 1px;
+}
+
+
+.email-child{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 54px 0px 0px 30px;
+}
+.email-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5vh;
+}
+.input-decor{
+    height: 24px;
+    width: 309px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.pin-child{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 54px 0px 0px 30px;
+}
+
+
+.pin-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5vh;
+}
+.pin-input{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.pin-input-decor{
+    height: 30px;
+    width: 31px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.login-button{
+    display: flex;
+    justify-content: center;
+    margin: 46px 0px 0px 0px ;
+}
+.login-button-decor{
+    width: 117px;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vh;
+}

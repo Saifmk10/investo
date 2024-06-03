@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #06193A;
+}
+
+
+/* seaction for the portfolio for the amount present in the portfolio */
+.portfolio-section-parent{
+    background-color: #8350EA;
+    height: 237px;
+    width: 100%;
+    position: fixed;
+    /* border-radius: 40px; */
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.myPortfolio-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 54px 0px 0px 22px;
+}
+.myPortfolio-section-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vh;
+}
+.myPortfolio-amount-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6.5vh;
+}
+
+
+
+/* section within the portfolio for the amount present in the wallet */
+.myWallet-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px 0px 0px 24px;
+}
+.myWallet-section-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vh;
+}
+.myWallet-image{
+    height: 21px;
+    width: auto;
+}
+.myWallet-amount-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5vh;
+}
+
+
+
+/* seaction for showing the price of different markets */
+.market-price{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin:50px 0px 0px 0px;
+    justify-content: center;
+}
+.market-text-decor{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    /* letter-spacing: 1px; */
+}
+.market-price-decor{
+    display: flex;
+    justify-content: center;
+    color: #33FE00;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+.options-parent{
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 110px 110px;
+    justify-content: center;
+    column-gap: 28px;
+    row-gap: 60px;
+    margin: 63px 0px 0px 0px;
+    
+}
+.options-decor{
+    background-color: #8350EA;
+    height: 108px;
+    width: 132px;
+    /* border: 2px solid #000; */
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.options-image-decor{
+    height: 58px;
+    width: auto;
+}
+.options-text-decor{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+

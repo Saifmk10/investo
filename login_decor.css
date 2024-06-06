@@ -55,12 +55,22 @@ body{
     border-radius: 10px;
     border: 2px solid black;
 }
+.error-message{
+    display: flex;
+    justify-content: center;
+    margin: -10px 0px 0px 0px;
+    color: rgb(12, 222, 12);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.5vh;
+}
 
 .pin-child{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 54px 0px 0px 30px;
+    margin: 45px 0px 0px 30px;
 }
 
 

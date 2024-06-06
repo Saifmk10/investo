@@ -23,7 +23,8 @@
             <h3 class="email-decor">
                 Email ID
             </h3>
-            <input type="text" class="input-decor">
+            <input type="email" class="input-decor" id="email_id">
+            <p class="error-message" id="email-error-message"></p>
         </div>
         <!-- ----------------- -->
         <div class="pin-child">
@@ -43,7 +44,7 @@
 
         <div class="login-button">
             <a href="home_page.html">
-                <button class="login-button-decor">
+                <button class="login-button-decor" onclick="getData()">
                     Login
                 </button>
             </a>
@@ -56,4 +57,5 @@
         </div>
     </div>
 </body>
+<script src="login_logic.js"></script>
 </html>

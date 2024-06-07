@@ -16,7 +16,7 @@ body{
 .login-image-decor{
     height: 274px;
     width: 271px;
-    margin: 14px 0px 0px 0px;
+    margin: 5% 0px 0px 0px;
 }
 
 
@@ -54,6 +54,7 @@ body{
     width: 309px;
     border-radius: 10px;
     border: 2px solid black;
+    
 }
 .error-message{
     display: flex;
@@ -70,10 +71,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 45px 0px 0px 30px;
+    margin: 35px 0px -10px 30px;
 }
-
-
 .pin-decor{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
@@ -89,9 +88,19 @@ body{
 }
 .pin-input-decor{
     height: 30px;
-    width: 31px;
+    width: 309px;
     border-radius: 10px;
     border: 2px solid black;
+}
+#pin-error-message{
+    display: flex;
+    justify-content: center;
+    margin:-10px 0px 0px 0px;
+    color: rgb(12, 222, 12);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.5vh;
 }
 
 .login-button{

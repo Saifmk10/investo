@@ -1,34 +1,55 @@
 let emailId = document.getElementById("email_id");
 let emailMessageError = document.getElementById("email-error-message");
+let passwordInputs = document.getElementById("pin_input_decor");
+let passwordMessageError = document.getElementById("pin-error-message");
 
 let counter = 0;
+let userIdIndex;
 
 
+const arrayEmailDatabase = ["saifmohasaif216@gmail.com" , "saniyan400@gmail.com"];
+const arrayPasswordDatabase = ["619156" , "0220"];
 
-const arrayEmailDatabase = ["saifmohasaif216@gmail.com"];
 
 function getData(){ 
-    let email = emailId.value;
+    let email = emailId.value.trim();
+    let password = passwordInputs.value.trim();
     let found = 0;
 
     for(let i=0; i<arrayEmailDatabase.length; i++){
         if(email === arrayEmailDatabase[i]){
-            console.log("working");
+            console.log("email working");
             found = 1;
+            userIdIndex = i;
             break;
         }
         else{
-            console.log("not working");
+            console.log("email not working");
             found = 0;
         }
     }
     if(found === 1){
         emailMessageError.innerText = "User Email Found";
         emailMessageError.style.color = "#33FE00";
+
+        if(password === arrayPasswordDatabase[userIdIndex]){
+            console.log(" password working")
+            passwordMessageError.innerText = "Authentication Successful";
+            passwordMessageError.style.color = "#33FE00";
+
+            // alert("User Aunthentication Completed")
+            window.location.assign("home_page.html")
+        }
+        else{
+            console.log("pin error");
+            passwordMessageError.innerText = "Aunthentication Failed";
+            passwordMessageError.style.color = "#FD2626";
+        }
     }
     else{
         console.log("not working");
         emailMessageError.innerText = "User Email Not Found"
         emailMessageError.style.color = "#FD2626";
     }
+    
 }

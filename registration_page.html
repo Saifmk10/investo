@@ -15,15 +15,20 @@
         <h3 class="reg_text_decor">Make your progress right from here</h3>
     </div>
 
-    <div class="details_sections">
-        <input type="text" placeholder="FIRST NAME" class="details_decor">
-        <input type="text" placeholder="LAST NAME" class="details_decor">
-        <input type="text" placeholder="EMAIL ID" class="details_decor">
-        <input type="password" placeholder="PIN" class="details_decor">
-    </div>
+    <!-- <div class="details_section_parent"> -->
+        <form action="registration_page.php" method="post" class="details_sections">
+            
+            <input type="text" placeholder="FIRST NAME" class="details_decor" name="first-name">
+            <input type="text" placeholder="LAST NAME" class="details_decor" name="last-name">
+            <input type="text" placeholder="EMAIL ID" class="details_decor" name="user-email">
+            <input type="text" placeholder="PIN" class="details_decor" name="user-password">
+
+    <!-- </div> -->
 
     <div class="register_button">
         <button class="register_button_decor">Register</button>
     </div>
+
+    </form>
 </body>
 </html>

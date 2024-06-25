@@ -46,31 +46,44 @@ body{
 
 
 /* section within the portfolio for the amount present in the wallet */
+.profit-loss-section{
+    display: flex;
+    gap: 45px;
+}
+
+
+
+
 .myWallet-section{
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin: 15px 0px 0px 24px;
+    display:flex;
 }
-.myWallet-section-decor{
+.profit-section-decor{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 450;
     font-style: normal;
-    font-size: 2vh;
+    font-size: 1.6vh;
 }
-.myWallet-image{
-    height: 21px;
-    width: auto;
-}
-.myWallet-amount-decor{
+.profit-amount-decor{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+#portfolio-profit{
+    color: #33FE00;
+}
+#portfolio-loss{
+    color: #fe0000;
 }
 
 
@@ -101,41 +114,45 @@ body{
     font-style: normal;
 }
 
-
-
+/* option section decor */
 .options-parent{
     display: grid;
-    grid-template-columns: 130px 130px;
-    grid-template-rows: 110px 110px;
+    /* grid-template-columns: 130px 130px; */
+    grid-template-rows: 65px 65px 65px 65px;
     justify-content: center;
     column-gap: 28px;
-    row-gap: 60px;
-    margin: 63px 0px 0px 0px;
+    row-gap: 30px;
+    margin: 57px 0px 0px 0px;
     
 }
 .options-decor{
     background-color: #8350EA;
-    height: 108px;
-    width: 132px;
+    height: 65px;
+    width: 310px;
     /* border: 2px solid #000; */
     border-radius: 20px;
 
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: 60px;
+    
     
 }
 .options-image-decor{
-    height: 58px;
+    height: 42px;
     width: auto;
+    margin: 12px 0px 0px 25px;
 }
 .options-text-decor{
     display: flex;
+    margin: 20px 0px 0px -37px;
     justify-content: center;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-size: 2.6vh;
 }
 

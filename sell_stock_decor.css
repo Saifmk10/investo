@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #06193A;
+}
+
+
+
+
+.sell-stock-heading-parent{
+    display: flex;
+    margin: 45px 0px 0px 47px;
+    gap: 45px;
+}
+
+.sell-stock-heading{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 3vh;
+}
+
+.sell-stock-entry-field-parent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 100px 0px 0px 0px;
+}
+
+
+/* positioning of the forms : the trnasition of the form is controlled from here */
+.stock-name-position {
+    position: absolute;
+    top: 175px; 
+    transition: transform 1s ease-in-out , font-size 1s ease-in-out;
+}
+.selling-price-position{
+    position: absolute;
+    top: 285px; 
+    transition: transform 1s ease-in-out , font-size 1s ease-in-out;
+}
+.quantity-position{
+    position: absolute;
+    top: 392px;
+    transition: transform 1s ease-in-out , font-size 1s ease-in-out;
+}
+.date-position{
+    position: absolute;
+    top: 500px;
+    transition: transform 1s ease-in-out , font-size 1s ease-in-out;
+}
+
+
+/* this is the design of all the names of the forms */
+.stock-name-label {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 2.4vh;
+}
+/* this is the design of the input field */
+.stock-name-input{
+    width: 286px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: inherit;
+    outline: none;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5vh;
+}
+
+
+
+.sell-button{
+    display: flex;
+    justify-content: center;
+    margin: 67px 0px 0px 0px;
+}
+
+
+.sell-button-design{
+   height: 45px;
+   width: 174px;
+   background-color: #8350EA;
+   color: #FFFFFF;
+   border-radius: 20px;
+   border: 2px solid transparent;
+
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 500;
+   font-style: normal;
+   font-size: 1.5vh;
+}
+
+.my-stocks{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.my-stocks-design{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 1.8vh;
+}
+
+
+
+
+
+/* =========================================== */
+/* stock name designing */
+.stock-name-input:focus + .stock-name-position {
+    transform: translateY(-20px);
+     
+}
+.stock-name-input:focus + .stock-name-position .stock-name-label{
+    font-size: 2vh;
+}
+
+
+/* =========================================== */
+/* buying price designing */
+.stock-name-input:focus + .selling-price-position {
+    transform: translateY(-20px);  
+}
+
+.stock-name-input:focus + .selling-price-position .stock-name-label {
+    font-size: 2vh;    
+}
+
+
+/* ========================================== */
+/* quantity designing */
+.stock-name-input:focus + .quantity-position {
+    transform: translateY(-20px);  
+}
+
+.stock-name-input:focus + .quantity-position .stock-name-label {
+    font-size: 2vh;    
+}
+
+/* ============================================ */
+
+.stock-name-input:focus + .date-position {
+    transform: translateY(-20px);  
+}
+
+.stock-name-input:focus + .date-position .stock-name-label {
+    font-size: 2vh;    
+}
+

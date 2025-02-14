@@ -7,8 +7,8 @@ let counter = 0;
 let userIdIndex;
 
 
-const arrayEmailDatabase = ["saifmohasaif216@gmail.com" , "saniyan400@gmail.com"];
-const arrayPasswordDatabase = ["619156" , "0220"];
+const arrayEmailDatabase = ["welcome"];
+const arrayPasswordDatabase = ["1234"];
 
 
 function getData(){ 
